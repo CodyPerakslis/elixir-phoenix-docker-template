@@ -15,16 +15,15 @@ Create alias for mix
 Create app
 `mix phx.new . --app $APP_NAME`
 
-Configure `src/config/dev.exs` database by setting `hostname: db`
+Configure `src/config/dev.exs` database and `src/config/text.exs` by setting `hostname: db`
 
-Initialize database 
+From the src/ directory initialize database 
 `mix ecto.create`
 
 Start application
 `docker-compose up`
 
 ## Todo
-- [ ] Incorporate unit tests
 - [ ] Install gigalixir
 - [ ] Connect to gigalixir prod
 
